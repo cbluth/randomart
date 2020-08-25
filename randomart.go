@@ -31,7 +31,8 @@ const (
 	undStop  string = "\033[0m"
 )
 
-func randomArt(b []byte, banner string) string {
+// RandomArt prints randomart
+func RandomArt(b []byte, banner string) string {
 	return printBox(b[:])
 }
 
